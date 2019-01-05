@@ -30,10 +30,10 @@ See [Configuration Reference](https://cli.vuejs.org/config/).
 
 ### Cannot run after clone from git
 ```
-
 npm cached clean --force
 rm -rf node-modules
 npm install
 
 And run the server again
+npm run serve
 ```
